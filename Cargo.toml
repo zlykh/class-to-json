@@ -1,0 +1,9 @@
+[package]
+name = "class-to-json"
+version = "1.0.0"
+authors = ["Dmitry Zlykh <Dmitry_Zlykh>"]
+
+[dependencies]
+clap = "3.0.0-beta.2"
+uuid =  { version = "0.8.2", features = ["v4"] }
+clipboard-win = "4.0.3"
