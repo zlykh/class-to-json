@@ -2,6 +2,7 @@
 name = "class-to-json"
 version = "1.0.0"
 authors = ["Dmitry Zlykh <Dmitry_Zlykh>"]
+edition = "2018"
 
 [dependencies]
 clap = "3.0.0-beta.2"
