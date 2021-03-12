@@ -21,6 +21,8 @@ use std::error::Error;
 
     //comment
     private Clz clz;
+
+    private ClassNotInDict notInDict;
  */
 
 #[derive(Clap)]
