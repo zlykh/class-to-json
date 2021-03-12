@@ -5,8 +5,17 @@ Simple basic values inserted to each attribute.
 ## Quick Start
 Copy class fields you would like to convert
 ```
-    private String gg;
-    private Currency curr;
+    private String myString;
+
+    /**
+     * javadoc
+     */
+    public int myNumber;
+
+    @DynamoDBRangeKey(attributeName = "SK")
+    protected Currency curr;
+
+    //comment
     private Clz clz;
 ```
 
