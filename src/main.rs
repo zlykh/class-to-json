@@ -157,7 +157,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         Err(_) => log_lines.push(format!("Can't access clipboard for write")),
         Ok(_) => println!("Copied to clipboard!")
     }
-    fs::write(log_path, log_lines.join("\r").as_bytes());
+    fs::write(log_path, log_lines.join("\r").as_bytes())?;
 
     Ok(())
 }

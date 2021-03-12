@@ -10,3 +10,7 @@ uuid =  { version = "0.8.2", features = ["v4"] }
 clipboard-win = "4.0.3"
 dirs = "3.0.1"
 chrono = "0.4"
+
+[[bin]]
+name = "c2j"
+path = "src/main.rs"
